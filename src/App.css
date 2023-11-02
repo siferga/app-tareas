@@ -40,11 +40,13 @@
   /*Logo*/
   
   .change-logo {
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    min-height: 300px;
+    border-radius: 26px;
+    
   }
   
-  /* Listas de Tareas */
+  /* Task's list */
   
   .main-task-list {
     width: 600px;
