@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styleSheets/Task.css';
-import { AiOutlineCloseCircle } from 'react-icons/fa';
+import { FaWindowClose } from 'react-icons/fa';
 
 
 function Task({ text }) {
@@ -10,7 +10,7 @@ function Task({ text }) {
         {text}
       </div>
       <div className='task-container-icons'>
-       <AiOutlineCloseCircle className='task-icon-'/>
+       <FaWindowClose className='task-icon'/>
       </div>
     </div>
   );    
