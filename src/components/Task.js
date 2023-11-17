@@ -2,10 +2,9 @@ import React from 'react';
 import '../styleSheets/Task.css';
 import { FaWindowClose } from 'react-icons/fa';
 
-
-function Task({ text }) {
+function Task({ text, completed }) {
   return (
-    <div className='task-container'>
+    <div className={completed ? 'task-container completed' : 'task-container' }>
       <div className='task-text'>
         {text}
       </div>
